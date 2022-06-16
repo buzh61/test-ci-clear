@@ -1,0 +1,32 @@
+{
+  "name": "test-ci-clear",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "lint": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/buzh61/test-ci-clear.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/buzh61/test-ci-clear/issues"
+  },
+  "homepage": "https://github.com/buzh61/test-ci-clear#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.17.10",
+    "@babel/core": "^7.18.5",
+    "@babel/preset-env": "^7.18.2",
+    "babel-jest": "^28.1.1",
+    "eslint": "^8.17.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "jest": "^28.1.1"
+  },
+  "dependencies": {
+    "core-js": "^3.23.1"
+  }
+}
